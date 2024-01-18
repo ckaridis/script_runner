@@ -1,0 +1,1 @@
+pyinstaller script_runner.spec

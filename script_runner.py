@@ -127,6 +127,10 @@ class BatFileRunner:
         self.rename_icon = ImageTk.PhotoImage(Image.open(os.path.join(img_path, "edit-text.png")).resize((20, 20), Image.ADAPTIVE))
         self.admin_icon = ImageTk.PhotoImage(Image.open(os.path.join(img_path, "admin.png")).resize((20, 20), Image.ADAPTIVE))
 
+        img = Image.open(os.path.join(img_path, "icon.png"))
+        icon = ImageTk.PhotoImage(img)
+        self.root.iconphoto(True, icon)
+
         for section in self.sections.values():
             section.destroy()
 

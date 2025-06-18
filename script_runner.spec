@@ -22,6 +22,7 @@ exe = EXE(
     a.datas,
     [],
     name='script_runner',
+    icon='res/img/icon.ico',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

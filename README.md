@@ -1,4 +1,3 @@
-![image](res/img/icon.png)
 
 # Script Runner
 
